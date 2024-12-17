@@ -28,7 +28,7 @@ components:
           name: zc-ui-https
           path: /zosConnect/Designer
           protocol: https
-          targetPort: 9443
+          targetPort: 9080
       env:
         - name: ZCON_DESIGNER_PROJECT
           value: /projects/catalog-manager-api/start
