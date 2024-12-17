@@ -26,9 +26,9 @@ components:
           targetPort: 9080
         - exposure: public
           name: zc-ui-https
-          path: /test
+          path: /zosConnect/Designer
           protocol: https
-          targetPort: 9080
+          targetPort: 9443
       env:
         - name: ZCON_DESIGNER_PROJECT
           value: /projects/catalog-manager-api/start
