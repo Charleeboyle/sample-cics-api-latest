@@ -26,7 +26,7 @@ components:
           targetPort: 9080
         - exposure: public
           name: zc-ui-https
-          path: /zosConnect/designer/
+          path: /test
           protocol: https
           targetPort: 9080
       env:
